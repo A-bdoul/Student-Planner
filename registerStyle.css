@@ -1,0 +1,85 @@
+body{
+    margin:0;
+    padding : 0;
+    background-color:black;
+    background-size: cover;
+    background-position:center;
+    font-family:sans-serif;
+    display:flex;
+  }
+  h1 {
+      color: white;
+      padding-left: 32px;
+      font-family: rockwell;
+  }
+
+  .avatar{
+    height:100px;
+    width: 100px;
+    border-radius:100px;
+    position:absolute;
+    top: -30%;
+    left:50%;
+    left: calc(50% - 50px);
+  }
+
+  .register-box{
+    width: 320px;
+    top: 65%;
+    left: 50%;
+    height:420px;
+    background:black;
+    color: #fff;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing:border-box;
+    border-radius:15px;
+  }
+
+   h2{
+     margin:0;
+     padding:0;
+     text-align: center;
+     font-size:30px;
+   }
+
+  .register-box p{
+    margin:0;
+    padding:0;
+    font-weight:bold;
+  }
+ 
+  .register-box input{
+    width:100%;
+    margin-bottom:22px;
+  }
+ 
+  .register-box input[type="text"], input[type="password"]{
+    border:none;
+    border-bottom: 1px solid #fff;
+    outline:none;
+    background:transparent;
+    height:40px;
+    color:#fff;
+    font-size:18px;
+  }
+ 
+  .register-box button[type="submit"]{
+    margin: auto;
+    display:block;
+    border:none;
+    outline:none;
+    height: 42px;
+    width: 150px;
+    color: #fff;
+    background-color: blue;
+    border-radius:20px;
+    cursor: pointer;
+    font-size:18px;
+  }
+
+  .register-box button[type="submit"]:hover{
+    background:red;
+    color:white;
+  }
+ 
